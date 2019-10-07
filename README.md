@@ -1,2 +1,2 @@
 # Algorithms
-Implementations of any algorithms I've learned.  
+Implementations of any algorithms I've learned or developed. 
