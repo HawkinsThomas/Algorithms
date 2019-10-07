@@ -13,12 +13,5 @@ function merge(arr1, arr2) {
       outputArr.push(arr2.shift());
     }
   }
-  if(arr1.length){
-    outputArr = outputArr.concat(arr1);
-  } else outputArr = outputArr.concat(arr2);
-  return outputArr
+  return arr1.length ? outputArr.concat(arr1) : outputArr.concat(arr2);
 }
-
-//const arr = [2, 6, 1, 4, 5, 3];
-const arr = [1]
-console.log(mergeSort(arr));
